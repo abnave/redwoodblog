@@ -1,1 +1,7 @@
 yarn redwood g layout blog
+
+//to open prisma studio
+yarn rw prisma studio
+
+//create new page
+yarn rw g page Article
