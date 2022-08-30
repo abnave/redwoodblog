@@ -5,7 +5,7 @@ const BlogLayout = ({ children }) => {
     <>
       <header>
         <h1>
-            <Link to={routes.home()}>Redwood Blog</Link>
+          <Link to={routes.home()}>Redwood Blog</Link>
         </h1>
         <nav>
           <ul>
@@ -14,6 +14,9 @@ const BlogLayout = ({ children }) => {
             </li>
             <li>
               <Link to={routes.about()}>About</Link>
+            </li>
+            <li>
+              <Link to={routes.contact()}>Contact</Link>
             </li>
           </ul>
         </nav>
